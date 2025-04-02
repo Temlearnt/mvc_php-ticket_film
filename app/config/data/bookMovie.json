@@ -1,0 +1,161 @@
+[
+    {
+        "id": "Mjk=",
+        "details": {
+            "schedule_id": "8",
+            "movie_id": "1",
+            "number_seats": [
+                "A1",
+                "A2"
+            ]
+        }
+    },
+    {
+        "id": "MzA=",
+        "details": {
+            "schedule_id": "8",
+            "movie_id": "1",
+            "number_seats": [
+                "B3",
+                "B2",
+                "B1"
+            ]
+        }
+    },
+    {
+        "id": "MzE=",
+        "details": {
+            "schedule_id": "8",
+            "movie_id": "1",
+            "number_seats": [
+                "A1",
+                "A2",
+                "A3"
+            ]
+        }
+    },
+    {
+        "id": "MzI=",
+        "details": {
+            "schedule_id": "8",
+            "movie_id": "1",
+            "number_seats": [
+                "A1",
+                "A2"
+            ]
+        }
+    },
+    {
+        "id": "MzM=",
+        "details": {
+            "schedule_id": "8",
+            "movie_id": "1",
+            "number_seats": [
+                "A4",
+                "A5"
+            ]
+        }
+    },
+    {
+        "id": "MzQ=",
+        "details": {
+            "schedule_id": "8",
+            "movie_id": "1",
+            "number_seats": [
+                "A1",
+                "A2"
+            ]
+        }
+    },
+    {
+        "id": "MzU=",
+        "details": {
+            "schedule_id": "8",
+            "movie_id": "1",
+            "number_seats": [
+                "A4",
+                "B3",
+                "B4",
+                "B5",
+                "A5"
+            ]
+        }
+    },
+    {
+        "id": "MzY=",
+        "details": {
+            "schedule_id": "6",
+            "movie_id": "4",
+            "number_seats": [
+                "A1",
+                "B2",
+                "C3",
+                "D4",
+                "E5"
+            ]
+        }
+    },
+    {
+        "id": "Mzc=",
+        "details": {
+            "schedule_id": "10",
+            "movie_id": "16",
+            "number_seats": [
+                "E5",
+                "E6"
+            ]
+        }
+    },
+    {
+        "id": "Mzg=",
+        "details": {
+            "schedule_id": "1",
+            "movie_id": "1",
+            "number_seats": "3"
+        }
+    },
+    {
+        "id": "Mzk=",
+        "details": {
+            "schedule_id": "1",
+            "movie_id": "1",
+            "number_seats": "3"
+        }
+    },
+    {
+        "id": "NDA=",
+        "details": {
+            "schedule_id": "8",
+            "movie_id": "1",
+            "number_seats": [
+                "B1",
+                "B2",
+                "B3"
+            ]
+        }
+    },
+    {
+        "id": "NDE=",
+        "details": {
+            "schedule_id": "8",
+            "movie_id": "1",
+            "number_seats": [
+                "E4",
+                "E6",
+                "E5"
+            ]
+        }
+    },
+    {
+        "id": "NDI=",
+        "details": {
+            "schedule_id": "8",
+            "movie_id": "1",
+            "number_seats": [
+                "D5",
+                "E5",
+                "E3"
+            ]
+        }
+    }
+]

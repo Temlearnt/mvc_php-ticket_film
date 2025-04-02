@@ -1,0 +1,80 @@
+  /* Utility for hiding and showing elements */
+  .hidden {
+    display: none;
+  }
+  .block {
+    display: block;
+  }
+
+  /* Custom sidebar styles for responsiveness */
+  @media (max-width: 1024px) {
+    .sidebar {
+      width: 250px; /* Ukuran sidebar */
+      position: absolute;
+      top: 0;
+      left: -100%; /* Sidebar tersembunyi secara default */
+      transition: left 0.3s ease;
+    }
+
+    .sidebar.open {
+      left: 0; /* Sidebar muncul ketika kelas 'open' ditambahkan */
+    }
+
+    .sidebar ul {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sidebar ul li {
+      margin-bottom: 10px;
+    }
+
+    .sidebar-toggle {
+      display: block; /* Tombol hamburger akan muncul */
+      cursor: pointer;
+    }
+
+    /* Profile dropdown untuk mobile */
+    .profile-dropdown {
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      display: none;
+      min-width: 160px;
+    }
+
+    .profile-dropdown.active {
+      display: block;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .sidebar {
+      width: 250px;
+      position: static;
+    }
+
+    .sidebar-toggle {
+      display: none;
+    }
+
+    .profile-dropdown {
+      position: absolute;
+      right: 0;
+      top: 100%;
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      display: none;
+      min-width: 160px;
+    }
+
+    .profile-dropdown.active {
+      display: block;
+    }
+  }

@@ -1,0 +1,58 @@
+/* Loading Animation */
+#loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+#loading .ticket {
+  width: 120px;
+  height: 60px;
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: spin 2s linear infinite;
+}
+
+#loading .ticket:before,
+#loading .ticket:after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#loading .ticket:before {
+  top: -15px;
+  left: 15px;
+}
+
+#loading .ticket:after {
+  bottom: -15px;
+  right: 15px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar-scrolled {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
