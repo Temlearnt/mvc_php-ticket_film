@@ -76,7 +76,7 @@ Cinnamon/
 
 ## 📞 Contact
 For any questions or feedback regarding this project, feel free to reach out:
-- **Email**: [email@example.com](mailto:putusutha30@gmail.com)
+- **Email**: [putusutha30@gmail.com](mailto:putusutha30@gmail.com)
 - **GitHub**: [Putusutha](https://github.com/Putusutha)
 
 ---
