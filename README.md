@@ -51,7 +51,7 @@ Cinnamon/
 ## 🔧 How to Run the Project
 1. **Clone this repository**
    ```sh
-   git clone https://github.com/Putusutha/mvc_php-ticket_film.git
+   git clone https://github.com/Temlearnt/mvc_php-ticket_film.git
    ```
 2. **Navigate to the project folder**
    ```sh
